@@ -1,0 +1,164 @@
+html {
+    box-sizing: border-box;
+}
+*, *::after , *::after {
+    box-sizing: inherit;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    border-top: 30px solid rgb(45, 49, 82);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.rightheader {
+    flex-basis: 60%;
+}
+.leftheader {
+    flex-basis: 40%;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 3rem;
+}
+nav li {
+    display: inline-block;
+    margin-right: 5%;
+    border-bottom: 3px solid black;
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+nav a:hover {
+    color: blue
+}
+.title {
+    text-align: center;
+    background-image: url(../images/bridge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 2rem 0;
+}
+.title h1 {
+    color: yellow;
+}
+section {
+    border-bottom:  5px solid black;
+    border-top: 5px solid black;
+    border-radius: 10px;
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 2rem;
+}
+article {
+    margin: 2rem 0;
+}
+article img {
+    float: left;
+    margin: 0 1rem 1rem 1rem;
+}
+blockquote{
+    text-align: right;
+}
+blockquote p{
+    text-align:left;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.blockquote {
+    background-color: rgb(92, 3, 0);
+    border-radius: 70px;
+    margin-left: 15rem;
+    padding: 1.5rem 0;
+    color: white;
+}
+
+footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: rgb(45, 49, 82);
+    background-size:initial;
+    color: white;
+    padding: 2rem 10rem;
+}
+
+form h2 {
+    color: red;
+}
+
+fieldset {
+    border-radius: 10px;
+}
+legend {
+    font-weight: bold;
+    display: block;
+}
+label {
+    display: block;
+}
+input:not([type="checkbox"]):not([type="radio"]),textarea, select{
+    display: block;
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 0.3rem;
+    border-radius: 20px;
+}
+[for="comments"], [for="select"] {
+    margin-top: 1rem;
+}
+.submit {
+    text-align: right;
+    margin: 1rem 5rem;
+}
+button {
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: rgb(92, 3, 0);
+}
+button:hover {
+    background-color:rgb(129, 62, 60) ;
+}
+.leftfooter {
+    flex-basis: 40%;
+}
+.rightfooter {
+    flex-basis: 40%;
+    margin: 3rem 0 0 3rem;
+}
+.rightfooter ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.rightfooter li{
+    display: inline-block;
+}
+.rightfooter p{
+    font-size: smaller;
+}
+.leftfooter ul {
+    list-style-type:circle;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+.leftfooter h2 {
+    color: yellow;
+}

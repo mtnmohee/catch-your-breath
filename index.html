@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch Your Breath</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="topheader">
+    </div>
+    <div class="wrapper">
+    <header>
+        <div class="leftheader">
+            <a href="#"><img src="images/logo.png" alt="logo"></a>
+        </div>
+        <div class="rightheader">
+        <nav>
+            <ul>
+            <li> <a href="#">Home</a> </li>
+            <li> <a href="#">About</a></li>
+            <li> <a href="#">Products</a></li>
+            <li> <a href="#">Services</a></li>
+            <li> <a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+        <div class="title">
+        <h1>Catch Your Breath</h1>
+        <h2> You Are Where You Need To Be</h2>
+        </div>
+        <section>
+            <article class="artical1">
+                <img src="images/SB.jpg" alt="Savebreath" title="Savebreath">
+                <div class="blockquote">
+                <blockquote>
+                    <p>You would think it best to save your breath for running, but I often find screaming helps.</p>
+                    <cite>Mark Lawrence</cite>
+                </blockquote>
+                </div>
+            </article>
+            <article class="artical2">
+                <img src="images/register.png" alt="register" title="register">
+                <form method="POST" action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES">
+                    <h2>Fill out the form below</h2>
+                    <fieldset>
+                        <legend>Your contact information</legend>
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Full name" autofocus>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone"
+                        placeholder="Don;t forget your area code">
+                        <label for="email"> Your Email</label>
+                        <input type="email" id="email" name="email">
+                        <label for="birthday">Your Birthday</label>
+                        <input type="date" id="birthday" name="birthday">
+                        <p>What is Your Gender?</p>
+                        <label><input type="radio" name="gender" value="male">Male</label>
+                        <label><input type="radio" name="gender" value="female">Female</label>
+
+                        <label for="select"> You need this for ...</label>
+                        <select id="select" name="select">
+                            <option>Select one...</option>
+                            <option value="study"> Study</option>
+                            <option value="work">Work</option>
+                            <option value="Private Business">Private Business</option>
+                            <option value="others">Others</option>
+                        </select>
+
+                        <label for="comments">Special Requests</label>
+                        <textarea id="comments" name="comments"></textarea>
+
+                        <label><input type="checkbox" id="true" name="true" value="true">I HEREBY CERTIFY that the information provided in this form is complete, true and correct to the best of my knowledge.
+                        </label>
+                
+                    </fieldset>
+                    <input id="send_to" type="hidden" name="send_to" value="mohey_eldin@hotmail.com">
+                    <div class="submit">
+                    <button type="submit">Submit</button>
+                    </div>
+
+                </form>
+            </article>
+        </section>
+    </div>
+    <footer>
+        <div class="leftfooter">
+            <h2>Get In Touch</h2>
+            <ul>
+                <li>Shoubra Misr</li>
+                <li>01016112044</li>
+                <li>Mohey_eldin@hotmail.com</li>
+            </ul>
+        </div>
+        <div class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13814.438216044291!2d31.227619921761196!3d30.048057484079067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840c7487e04cd%3A0x3377b407fe2c3754!2sDowntown%20Cairo%2C%20Bab%20Al%20Louq%2C%20Abdeen%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1653142981647!5m2!1sen!2seg" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="rightfooter">
+        <ul>
+            <li><a href="#"><img src="images/icon1.png" alt="Social Media 1."></a></li>
+            <li><a href="#"><img src="images/icon2.png" alt="Social Media 2."></a></li>
+            <li><a href="#"><img src="images/icon3.png" alt="Social Media 3."></a></li>
+            <li><a href="#"><img src="images/icon4.png" alt="Social Media 4."></a></li>
+            <li><a href="#"><img src="images/icon5.png" alt="Social Media 5."></a></li>
+            <li><a href="#"><img src="images/icon6.png" alt="Social Media 6."></a></li>
+            <li><a href="#"><img src="images/icon7.png" alt="Social Media 7."></a></li>
+        </ul>
+        <p>All Rights Reserved. Designed by Mohey</p>
+        </div>                
+    </footer>
+</body>
+</html>
